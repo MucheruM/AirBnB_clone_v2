@@ -17,11 +17,11 @@ env = os.getenv("HBNB_ENV")
 class TestDBStorage(unittest.TestCase):
     """Test the DBStorge class"""
 
-    def setUp(self):
-        """Set up for the test"""
-        storage.rollback()
-        storage.drop_all()
-        storage.reload()
+    def setUp(self): 
+    """Set up for the test"""
+    storage.rollback()
+    storage.drop_all()
+    storage.reload()
 
     def test_is_instance(self):
         """Test if storage is an instance of the BDStorage class"""
