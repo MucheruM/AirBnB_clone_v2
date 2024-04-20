@@ -10,6 +10,7 @@ import sqlalchemy
 from console import HBNBCommand
 import models
 
+
 class TestConsole(unittest.TestCase):
     """Tests the console file."""
 
